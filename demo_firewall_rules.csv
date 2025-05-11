@@ -1,0 +1,10 @@
+Rule ID,Source,Destination,Port,Protocol,Action,Status,Logged,Hit Count,Object Name
+1,Any,Any,22,TCP,Allow,Active,Yes,1000,
+2,10.0.0.5,172.16.0.10,80,TCP,Allow,Active,No,0,OfficeServer
+3,192.168.1.0/24,172.16.0.10,443,TCP,Allow,Active,Yes,9999,
+4,10.0.0.5,172.16.0.10,443,TCP,Deny,Active,No,2,
+5,Any,10.0.0.5,23,TCP,Allow,Inactive,No,1000,
+6,10.0.0.5,172.16.0.20,22,TCP,Allow,Active,Yes,1000,
+7,10.0.0.6,172.16.0.30,80,TCP,Allow,Active,No,1000,
+8,192.168.1.0/24,172.16.0.40,3389,TCP,Allow,Active,Yes,1000,
+9,OfficeServer ,,,,,,,,
